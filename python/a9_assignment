@@ -1,0 +1,18 @@
+1.1
+	Tasks to do
+1. We do have an extra “hint” file but please only look at that if you are absolutely stuck.
+
+2. Take a look at the following spiral:
+
+	21 22 23 24 25
+	20 7  8  9  10
+	19 6  1  2  11
+	18 5  4  3  12
+	17 16 15 14 13
+
+It is constructed from the center and the numbers are placed in a spiral going clock-wise. This particular spiral shown in the figure is a 5 × 5 spiral. We are interested in the sum of numbers on its diagonal. In this case, the sum is 101.
+
+You need to write a function get_diag_sum that takes in one input, n, and finds the sum of terms on the diagonal of an n × n such spiral. For example, if we pass in the number 5, the function should return 101 and if we pass in 3 as input, it should return 25.
+
+3. Notes:
+	(a) The function only works on odd numbered integers. For all other types of numbers, it should return ‘None’.
